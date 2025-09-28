@@ -13,9 +13,6 @@ services:
       - "./music:/music:ro"
     networks:
       internal:
-        aliases:
-         - navidrome.s2.internal
-
   navidrom-api-auth-proxy:
     labels:
       - com.centurylinklabs.watchtower.scope=autonom
